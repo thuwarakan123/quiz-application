@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#h1{
+	background:url("../img/pic-17.jpg") ;
+	background-size:cover;
+	background-repeat:no-repeat;
+    width:100%;
+	height:600px;
+	background-position:center;
+	
+}
+/* navigation bar */
+
+
+#nav-bar .container img{
+    float:left;
+    margin:8px;
+}
+#nav-bar .container ul{
+    float:right;
+}
+#nav-bar .container ul li{
+    float:left;
+    list-style-type:none;
+}
+#nav-bar .container a{
+    text-decoration:none;
+    color:white;
+	font-family:arial black;
+	font-size:16px;
+}
+#nav-bar .container ul li a{
+    display:block;
+    padding:16px;
+    margin:12px;
+	margin-right:15px;
+	margin-bottom:2px;
+}
+#nav-bar .container ul li a:hover{
+    background-color:white;
+    color:black;
+    border-radius:36px;
+ 
+}
+.container ul ul {
+	display :none;
+	position:absolute;
+	margin-bottom:16px;
+	 
+}
+ 
+.container ul li:hover > ul{
+	display:block;
+	
+}
+/*--------------------------------------------------------------------------------------------------*/
+#heading{
+	text-align:center;
+	padding-top:275px;
+	color:white;
+	font-family:Linotte;
+	font-size:60px;
+}
+/*--------------------------------------------------------------------------------------------------*/ 
+#sec-1{
+	margin:70px 30px;
+}
+
+
+.student-1{
+	grid-area:pic-1;
+	border:3px solid black;
+ 	width:231px;
+	height:231px;
+}
+.student-2{
+	grid-area:pic-2;
+	border:3px solid black;
+	width:231px;
+	height:231px;
+}
+.student-3{
+	grid-area:pic-3;
+	border:3px solid black;
+	width:231px;
+	height:231px;
+}
+.student-4{
+	grid-area:pic-4;
+	border:3px solid black;
+	width:231px;
+	height:231px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+         'pic-1 pic-2 pic-3 pic-4 ';
+  margin-left:100px;
+  
+}
+.grid-container p{
+	background-color:black;
+	color:white;
+	font-family:arial black;
+	text-align:center;
+	font-size:16px;
+	 
+}
+
+.notes p {
+	margin-bottom:30px;
+	font-family:arial black;
+	
+}
+/*--------------------------------------------------------------------------------------------------*/
+ #page-footer{
+    width:100%;
+    padding:25px;
+    margin-top:20px;
+    background-color: black;
+    border-top:1px solid black;
+	font-family:arial black;
+	 
+}
+#page-footer .links-container{
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+	 
+}
+#page-footer .links-container .group-links .links-heading,.links{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display:block;
+	color:white;
+}
+#page-footer .links-container .group-links .links-heading{
+    font-size:20px;
+    margin:5px 2px ;
+}
+#page-footer .links-container .group-links .links{
+    font-size: 14px;
+    margin:3px 2px;
+}
+#page-footer .links-container .group-links .links:hover{
+    text-decoration: underline;
+}
+#page-footer .author h4{
+    color:black;
+    text-align: center;
+    margin-top:20px;
+}

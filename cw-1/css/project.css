@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#h3{
+	background:url("../img/pic-1.jpg") ;
+	background-size:cover;
+	background-repeat:no-repeat;
+    width:100%;
+	height:650px;
+	background-position:center;
+}
+
+/* navigation bar */
+
+
+#nav-bar .container img{
+    float:left;
+    margin:8px;
+}
+#nav-bar .container ul{
+    float:right;
+}
+#nav-bar .container ul li{
+    float:left;
+    list-style-type:none;
+}
+#nav-bar .container a{
+    text-decoration:none;
+    color:white;
+	font-family:arial black;
+	font-size:16px;
+}
+#nav-bar .container ul li a{
+    display:block;
+    padding:16px;
+    margin:12px;
+	margin-right:15px;
+	margin-bottom:2px;
+}
+#nav-bar .container ul li a:hover{
+    background-color:white;
+    color:black;
+    border-radius:36px;
+	
+}
+.container ul ul {
+	display :none;
+	position:absolute;
+	 
+}
+ 
+.container ul li:hover > ul{
+	display:block;
+}
+/*--------------------------------------------------------------------------------------------------*/
+
+    
+#heading{
+	text-align:center;
+	padding-top:360px;
+	color:white;
+	font-family:Linotte;
+	font-size:40px;
+}
+/*--------------------------------------------------------------------------------------------------*/ 
+section{
+	width:100%;
+	 
+}
+
+.head{
+	margin-top:25px;
+	margin-bottom:15px;
+	margin-left:200px;
+	font-family:Arial;
+	font-size:35px;
+	
+}
+ 
+.pic{
+	margin-top:5px;
+	margin-bottom:15px;
+	margin-left:300px;
+	
+}
+
+.place p{
+	margin-left:150px;
+	margin-right:150px;
+	font-family:Helvetica;
+	font-size:17px;
+} 
+
+.link{
+	text-decoration:none;
+	color:black;
+	 
+}
+.link:hover{
+	font-size:45;
+	font-family:arial black;
+	color:blue;
+}
+
+.place img{
+	border: 4px solid black;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
+  #page-footer{
+    width:100%;
+    padding:25px;
+    margin-top:20px;
+    background-color: black;
+    border-top:1px solid black;
+	font-family:arial black;
+	 
+}
+#page-footer .links-container{
+    display: grid;
+    column-gap:20px;
+    grid-template-columns: auto auto auto;
+    padding:10px;
+	 
+}
+#page-footer .links-container .group-links .links-heading,.links{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    display:block;
+	color:white;
+}
+#page-footer .links-container .group-links .links-heading{
+    font-size:20px;
+    margin:5px 2px ;
+}
+#page-footer .links-container .group-links .links{
+    font-size: 14px;
+    margin:3px 2px;
+}
+#page-footer .links-container .group-links .links:hover{
+    text-decoration: underline;
+}
+#page-footer .author h4{
+    color:black;
+    text-align: center;
+    margin-top:20px;
+}
